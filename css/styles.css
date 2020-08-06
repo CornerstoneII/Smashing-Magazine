@@ -30,7 +30,7 @@ body{
 }
 
 .logo{
-    font-size: 1em;
+    font-size: 3em;
     line-height: 0;
     width: 3em;
     position: relative;
@@ -44,4 +44,82 @@ body{
     padding: 0;
     color: transparent;
     text-shadow: none;
+}
+
+.logo a picture {
+    display: block;
+}
+
+.main-nav{
+    position: relative;
+    display: block;
+    min-width: 0;
+    grid-column: auto;
+    font-size: 1.05em;
+}
+
+.menu-bar{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+    width: 100%;
+    min-width: 0;
+    justify-content: space-between;
+}
+
+.menu-bar li{
+    padding-left: 1.1em;
+}
+
+.nav-item{
+    flex-grow: 0;
+    background: 0 0;
+    text-shadow: none;
+    color: inherit;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.nav-item a{
+    color: #333;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.main-nav-more{
+    margin-left: .35em;
+    position: relative;
+    width: 145px;
+}
+
+.nav-more-btn{
+    white-space: nowrap;
+    padding: .35em .5rem .35em 1rem;
+    border: 1px solid rgba(0,0,0,.05);
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 1;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 11px;
+    box-shadow: 0 13px 27px -15px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px rgba(0,0,0,.025);
+    position: relative;
+}
+
+
+.nav-more-btn::after{
+    content: '';
+    display: block;
+    margin-left: .4em;
+    width: 30px;
+    height: 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.smashingmagazine.com/images/icons/menu-cat.svg);
 }
