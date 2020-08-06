@@ -28,3 +28,11 @@ body{
     align-items: center;
     grid-template-columns: min-content minmax(140px,2fr) 0 minmax(100px,350px);
 }
+
+.logo{
+    font-size: 1em;
+    line-height: 0;
+    width: 3em;
+    position: relative;
+    z-index: 0;
+}
