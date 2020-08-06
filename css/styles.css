@@ -16,3 +16,15 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: calc(.35842vw + .95296em);
 }
+
+/* Header Section */
+.main-header{
+    padding: 1rem 2em;
+    display: grid;
+    position: relative;
+    justify-content: flex-start;
+    column-gap: 10px;
+    z-index: 2;
+    align-items: center;
+    grid-template-columns: min-content minmax(140px,2fr) 0 minmax(100px,350px);
+}
